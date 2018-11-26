@@ -155,7 +155,7 @@ docker build -t sagemaker-keras-text-class:latest .
 
 ### LAB 3: Local Testing of Training & Inference Code
 
-Once we are finished developing the training portion (in ‘container/train’), we can start testing locally so we can debug our code quickly. Local test scripts are found in the ‘container/local_test’ subfolder. Here we can run ‘local_train.sh’ which will, in turn, run a Docker container within which our training code will execute.
+Once we are finished developing the training portion (in ‘container/train’), we can start testing locally so we can debug our code quickly. Local test scripts are found in the ‘container/local_test’ subfolder. Here we can run ‘train_local.sh’ which will, in turn, run a Docker container within which our training code will execute.
 
 #### Testing Training Code
 
